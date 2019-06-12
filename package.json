@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/punkave/pk-module-boilerplate.git"
+    "url": "git+https://github.com/punkave/pk-cookie-confirm.git"
   },
   "author": "P'unk Ave",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/punkave/pk-module-boilerplate/issues"
+    "url": "https://github.com/punkave/pk-cookie-confirm/issues"
   },
-  "homepage": "https://github.com/punkave/pk-module-boilerplate#readme",
+  "homepage": "https://github.com/punkave/pk-cookie-confirm#readme",
   "dependencies": {
     "pk-utilities": "git+https://punkhub:5cafa101c142b77ee0edc5f7cb098ca7b7213f8b@github.com/punkave/pk-utilities.git#1.0.1"
   },
