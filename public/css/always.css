@@ -2,9 +2,12 @@
   z-index: 4;
   position: fixed;
   left: 0;
+  display: none;
   width: 100%;
   padding: 20px;
   background: #FFF; }
+  .pk-alert.is-active {
+    display: block; }
 
 .pk-alert--bottom {
   bottom: 0;

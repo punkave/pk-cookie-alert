@@ -1,0 +1,16 @@
+{% if not data.global.pkAlertDisable %}
+  <div class="pk-alert pk-alert--{{ data.global.pkAlertAlignment }}" role="alert" data-component="pk-alert" aria-hidden="true">
+    <div class="pk-alert__inner">
+      {% if data.global.pkAlertText %}
+        <div class="pk-alert__text">
+          {{ apos.areas.richText(data.global.pkAlertText) }}
+        </div>
+      {% endif %}
+      {% if data.global.pkAlertButton %}
+        <button type="button" class="pk-alert__button" data-role="dismiss-pk-alert">
+          {{ data.global.pkAlertButton }}
+        </button>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

@@ -8,9 +8,13 @@ $base-font-size: 16px;
   z-index: $index;
   position: fixed;
   left: 0;
+  display: none;
   width: 100%;
   padding: $padding-unit;
   background: $white;
+  &.is-active {
+    display: block;
+  }
 }
 
 .pk-alert--bottom {
