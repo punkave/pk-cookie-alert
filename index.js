@@ -9,7 +9,12 @@ module.exports = {
   construct: (self, options) => {
     self.prependAlert = () => {
       self.apos.templates.prepend('body', (req) => {
-        return self.partial('alert');
+        return self.partial('alert', {
+          options: {
+            baseClass: options.baseClass || 'pk-alert',
+            cookieName: options.cookieName || 'pk-alert'
+          }
+        });
       });
     };
   },
