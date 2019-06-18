@@ -126,7 +126,7 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL3NyYy9qcy9zaXRlLmpzLmpzIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/js/site.js\n");
+eval("function init() {\n  console.log('this works');\n  apos.define('pk-cookie-alert-widgets', {\n    extend: 'apostrophe-widgets',\n    construct: function (self, options) {\n      self.play = function ($widget, data, options) {\n        console.log('this doesn\\'t work');\n      };\n    }\n  });\n};\n\ninit();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvanMvc2l0ZS5qcz8yOGYwIl0sIm5hbWVzIjpbImluaXQiLCJjb25zb2xlIiwibG9nIiwiYXBvcyIsImRlZmluZSIsImV4dGVuZCIsImNvbnN0cnVjdCIsInNlbGYiLCJvcHRpb25zIiwicGxheSIsIiR3aWRnZXQiLCJkYXRhIl0sIm1hcHBpbmdzIjoiQUFBQSxTQUFTQSxJQUFULEdBQWlCO0FBQ2ZDLFVBQVFDLEdBQVIsQ0FBWSxZQUFaO0FBQ0FDLE9BQUtDLE1BQUwsQ0FBWSx5QkFBWixFQUF1QztBQUNyQ0MsWUFBUSxvQkFENkI7QUFFckNDLGVBQVcsVUFBVUMsSUFBVixFQUFnQkMsT0FBaEIsRUFBeUI7QUFDbENELFdBQUtFLElBQUwsR0FBWSxVQUFVQyxPQUFWLEVBQW1CQyxJQUFuQixFQUF5QkgsT0FBekIsRUFBa0M7QUFDNUNQLGdCQUFRQyxHQUFSLENBQVksb0JBQVo7QUFDRCxPQUZEO0FBR0Q7QUFOb0MsR0FBdkM7QUFRRDs7QUFFREYiLCJmaWxlIjoiLi9zcmMvanMvc2l0ZS5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImZ1bmN0aW9uIGluaXQgKCkge1xuICBjb25zb2xlLmxvZygndGhpcyB3b3JrcycpO1xuICBhcG9zLmRlZmluZSgncGstY29va2llLWFsZXJ0LXdpZGdldHMnLCB7XG4gICAgZXh0ZW5kOiAnYXBvc3Ryb3BoZS13aWRnZXRzJyxcbiAgICBjb25zdHJ1Y3Q6IGZ1bmN0aW9uIChzZWxmLCBvcHRpb25zKSB7XG4gICAgICBzZWxmLnBsYXkgPSBmdW5jdGlvbiAoJHdpZGdldCwgZGF0YSwgb3B0aW9ucykge1xuICAgICAgICBjb25zb2xlLmxvZygndGhpcyBkb2VzblxcJ3Qgd29yaycpO1xuICAgICAgfTtcbiAgICB9XG4gIH0pO1xufTtcblxuaW5pdCgpO1xuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/js/site.js\n");
 
 /***/ }),
 
@@ -148,8 +148,8 @@ eval("\nvar content = __webpack_require__(/*! !../../node_modules/mini-css-extra
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/bgantick/Desktop/github/pk-module-boilerplate/src/js/site.js */"./src/js/site.js");
-module.exports = __webpack_require__(/*! /Users/bgantick/Desktop/github/pk-module-boilerplate/src/scss/site.scss */"./src/scss/site.scss");
+__webpack_require__(/*! /Users/bgantick/Desktop/github/pk-cookie-alert/src/js/site.js */"./src/js/site.js");
+module.exports = __webpack_require__(/*! /Users/bgantick/Desktop/github/pk-cookie-alert/src/scss/site.scss */"./src/scss/site.scss");
 
 
 /***/ })

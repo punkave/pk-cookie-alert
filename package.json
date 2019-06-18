@@ -1,5 +1,5 @@
 {
-  "name": "pk-cookie-confirm",
+  "name": "pk-cookie-alert",
   "version": "1.0.0",
   "description": "A module that provides a persistent alert for users to acknowledge the use of cookies.",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/punkave/pk-cookie-confirm.git"
+    "url": "https://github.com/punkave/pk-cookie-alert.git"
   },
   "author": "P'unk Ave",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/punkave/pk-cookie-confirm/issues"
+    "url": "https://github.com/punkave/pk-cookie-alert/issues"
   },
-  "homepage": "https://github.com/punkave/pk-cookie-confirm#readme",
+  "homepage": "https://github.com/punkave/pk-cookie-alert#readme",
   "dependencies": {
     "pk-utilities": "git+https://punkhub:5cafa101c142b77ee0edc5f7cb098ca7b7213f8b@github.com/punkave/pk-utilities.git#1.0.1"
   },
