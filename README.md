@@ -4,6 +4,8 @@ A bundle that adds a global alert to a site that, once dismissed, won't reappear
 
 ## Configuration
 
+### Basic set up:
+
 ```
 //in app.js
 ...
@@ -17,6 +19,27 @@ A bundle that adds a global alert to a site that, once dismissed, won't reappear
 ```
 
 Alert gets prepended to the `body` automatically.
+
+### Configuring the base module
+
+You can configure your own base class name and cookie name for project-level overrides (optional)
+
+```
+//in app.js
+...
+  modules: {
+    ...
+    'pk-cookie-alert': {
+      baseClass: 'my-class',
+      cookieName: 'my-cookie'
+    },
+    'pk-cookie-alert-global': {}
+    ...
+  }
+...
+```
+
+### Configuring rich text
 
 You can pass in your own rich text configuration for the global `pkAlertText` field via a `richTextConfig` option:
 
