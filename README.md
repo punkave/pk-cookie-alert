@@ -1,3 +1,4 @@
+:cookie: :rotating_light: 
 # pk-cookie-confirm
 
 A bundle that adds a global alert to a site that, once dismissed, won't reappear (unless cookies are cleared). includes a `pk-cookie-alert-global` module in addition to the root `pk-cookie-alert` module.
