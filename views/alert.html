@@ -1,16 +1,14 @@
 {% if not data.global.pkAlertDisable %}
-  <div class="{{ data.options.baseClass }} {{ data.options.baseClass }}--{{ data.global.pkAlertAlignment }}" role="alert" data-component="pk-alert" aria-hidden="true" data-name="{{ data.options.cookieName }}">
-    <div class="{{ data.options.baseClass }}__inner">
-      {% if data.global.pkAlertText %}
+  {% if data.global.pkAlertText and data.global.pkAlertButton %}
+    <div class="{{ data.options.baseClass }} {{ data.options.baseClass }}--{{ data.global.pkAlertAlignment }}" role="alert" data-component="pk-alert" aria-hidden="true" data-name="{{ data.options.cookieName }}">
+      <div class="{{ data.options.baseClass }}__inner">
         <div class="{{ data.options.baseClass }}__text">
           {{ apos.areas.richText(data.global.pkAlertText) }}
         </div>
-      {% endif %}
-      {% if data.global.pkAlertButton %}
         <button type="button" class="{{ data.options.baseClass }}__button" data-role="dismiss-pk-alert">
           {{ data.global.pkAlertButton }}
         </button>
-      {% endif %}
+      </div>
     </div>
-  </div>
+  {% endif %}
 {% endif %}
