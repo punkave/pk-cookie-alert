@@ -1,6 +1,6 @@
 {
   "name": "pk-cookie-alert",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A module that provides a persistent alert for users to acknowledge the use of cookies.",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/punkave/pk-cookie-alert#readme",
   "dependencies": {
-    "pk-utilities": "git+https://punkhub:5cafa101c142b77ee0edc5f7cb098ca7b7213f8b@github.com/punkave/pk-utilities.git#1.0.1"
+    "pk-utilities": "git+https://punkhub:5cafa101c142b77ee0edc5f7cb098ca7b7213f8b@github.com/punkave/pk-utilities.git#v1.0.2"
   },
   "devDependencies": {
     "chalk": "^2.4.2",
