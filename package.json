@@ -1,6 +1,6 @@
 {
   "name": "pk-cookie-alert",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A module that provides a persistent alert for users to acknowledge the use of cookies.",
   "main": "index.js",
   "scripts": {
